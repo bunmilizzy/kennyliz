@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    *,html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        gap: 2px;
+        background-color: antiquewhite;
+    }
+    button{
+        background-color:rgb(33, 85, 33);
+        display: flex;
+    
+        height: 50px;
+        width: 210px;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+
+  }
+
+
+.img{
+    width: 400px;
+    height: 400px;
+    
+}
+.para{
+    width: 350px;
+    /* height: 400px; */
+    background-color: white;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+
+
+
+  .dolla{
+    color: rgb(33, 85, 33);
+  }
+    .secdolla{
+        color: rgb(131, 125, 125);
+        text-decoration: line-through;
+
+    }
+
+.anu2{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width:500px) {
+    .anu2{
+        flex-direction: column;
+    }
+}
+
+
+</style>
+
+<body>
+    
+    <div class="container">
+
+        <div class="anu2">
+
+            
+                <img src="../image-product-desktop.jpg" alt="" width="300px" height="auto">
+                       
+                 <div class="para" id="para">PERFUME</p>
+                 <h1>Gabrielle <br> essence eau deu <br> De perfume</h1>  
+                  <p> A floral,solar and voluptous <br>interpretation composed by <br> Oliver polge,perfumer.Creator <br>for the house of <br>CHANEL.</p>
+                  <strong><p class="dolla">$149.99</strong>
+                  <span class="secdolla">$169.99</span></p>
+        
+                  <button>Add to cart</button> 
+                  </div>    
+                
+        </div>
+
+        </div>   
+    
+    
+
+
+
+</body>
+</html>
